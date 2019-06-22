@@ -1,0 +1,32 @@
+
+/* Formato del titulo central de Busqueda */
+h1.buscar{
+	font-family: fantasy;
+	font-size:50px;
+	display: inline-block;
+	margin: 0px;
+	padding: 0px;
+	box-align: auto auto auto auto;
+	cursor: default;
+
+}
+
+.button {
+  background-color: orange;
+  border: none;
+  color: black;
+  padding: 15px 25px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  
+  
+}
+
+/*
+
+positiion fixed fija la imagen incluso bajando la 
+ventana
+a:hover cambia de color con el raton encima
+input:foucs para ampliar los inputs; 
+*/

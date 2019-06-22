@@ -1,0 +1,65 @@
+body{
+	margin: 0 auto;
+	min-width: 40em;
+ }
+ 
+ #wrapper {
+	margin: 0 0 0 0;
+	padding: 0 1em;
+ }
+
+ 
+/* Formato para los logos de la pagina web y del logo para entrar en registros */
+img.logo {
+	height:100px;
+	width:100px;
+	display: inline-block;
+	box-align: auto auto auto auto;
+	margin: 0px;
+    padding: 0px;
+    cursor: pointer;
+/*border:1px solid red;*/
+}
+/* Formato para el titulo de la pagina */
+h1.titulo {
+	font-family: fantasy;
+	font-size:100px;
+	text-align: center;
+	display: inline-block;
+	width: 50%;
+	margin: 0px;
+	padding: 0px;
+	box-align: auto auto auto auto;
+	cursor: default;
+/*border:1px solid red;*/
+}
+/* Espacio en blanco con la funcion de centrar div.inliner-block */
+div.leftDistance{
+	display: inline-block;	
+	align-self: center;
+	width: 26%;
+	box-align: 0 auto 0 auto;
+	
+}
+/* Posicion central de la pagina */
+div.inliner-block{
+	display: inline-block;	
+	align-self: center;
+	width: 50%;
+	box-align: 0 auto 0 auto;
+	text-align: center;
+
+}
+/* Formato para los espacios laterales */
+div.contenedor{
+	width: 25%;
+	min-height: 500px;
+	align-self: center;
+	display: inline-block;
+	background: orange;
+	border-color: black;
+	box-align: auto auto auto auto;
+	position: absolute;
+	text-align: center;
+
+}

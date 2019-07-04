@@ -13,27 +13,29 @@
   <title>BecaLink </title>
 
 </head>
-<body style="background-color: antiquewhite">
+<body >
   <div style="width: 25%; display: inline-block;" >
     <p style="text-align:center;"><img class="logo" src="images/Logo.png" alt="Logo de Becalink" 
       onclick="mover('index.html')">Volver</p></div>
   
   <h1 class="titulo">BECALINK</h1>
   <div style="width: 23%; display: inline-block; ">
-    <p style="text-align:right;">Registro<img class="logo" style="cursor: pointer" src="images/Logo_usuario.png" alt="Logo del usuario" 
+    <p style="text-align:right;">Entrar/Registrar<img class="logo" style="cursor: pointer" src="images/Logo_usuario.png" alt="Logo del usuario" 
         onclick="mover('registroUser.html')"></p></div>
 
   <div id="wrapper">
     <div class="leftDistance"></div><div class="inliner-block"> 
-        <h2>Resultados</h2>
+        <h2 style="font-size: 50px;"><u>Resultados</u></h2>
         <br>
-        <select name="User">
+        <select name="User" class="pregunta">
+          <option value="0"></option> 
           <option value="1">Ministerio de Educación</option> 
           <option value="2">Gobierno de Canarias</option> 
         </select>
       <br><br>
     </div>
-    <div class="leftDistance"></div><div class="inliner-block"> 
+    
+    <div class="leftDistance"></div><div class="inliner-block" > 
         <ul>
             <li><a class="desactive" href="#information" id="Info" onclick="navbarInf();" >
               Información</a></li>
@@ -43,18 +45,29 @@
               Contacto</a></li>
         </ul>
           <div  id="Información" class="datos" style="display: none;">
-              <h1>Fixed Top Navigation Bar</h1>
+              <h1>Información</h1>
           </div>  
           <div  id="Requisitos" class="datos" style="display: none;">
-            <h1>Fr</h1>
-            <p>Some text some text some text some text..</p>
+            <h1>Requisitos:</h1>
+            <p style="text-align:left">
+               DNIe <br>
+               Certificado Digital<br>
+               Aprobar el 70% de las aignaturas matriculadas<br>
+            </p>
         </div>  
         <div  id="Contactos" class="datos" style="display: none;">
-          <h1>FDDDDDDDDDDDDDDDDD</h1>
-          <p>Some text some text some text some text..</p>
-      </div>  
+          
+          <p><a href="https://www.gobiernodecanarias.org/universidades/becas_ayudas/estudios_universitarios/curso_2018-2019.html">
+            Link a la entrada de la beca Universitaria del Gobierno de Canarias</a></p>
+        </div> 
+
+ 
+      </div>    
+      <div style="background-color: lightsalmon;"><span class="publi">Espacio Publicitario </span> </div>
+
+
+
     </div>
-  </div>
 
 
 </body>

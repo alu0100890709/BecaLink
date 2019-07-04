@@ -1,14 +1,10 @@
 body{
 	margin: 0 auto;
 	min-width: 40em;
- }
- 
- #wrapper {
-	margin: 0 0 0 0;
-	padding: 0 1em;
+	background-color: #faebd7;
+
  }
 
- 
 /* Formato para los logos de la pagina web y del logo para entrar en registros */
 img.logo {
 	height:100px;
@@ -18,7 +14,9 @@ img.logo {
 	margin: 0px;
     padding: 0px;
     cursor: pointer;
-/*border:1px solid red;*/
+/*border:1px solid red;
+
+style="background-image: url('images/biblio.jpg');"*/
 }
 /* Formato para el titulo de la pagina */
 h1.titulo {
@@ -53,7 +51,7 @@ div.inliner-block{
 /* Formato para los espacios laterales */
 div.contenedor{
 	width: 25%;
-	min-height: 500px;
+	min-height: 680px;
 	align-self: center;
 	display: inline-block;
 	background: orange;
@@ -63,3 +61,25 @@ div.contenedor{
 	text-align: center;
 
 }
+
+select.pregunta{
+	width: 300px; 
+	height: 35px;   
+	border-radius: 10px;
+  }
+
+  span.publi {
+	font-size:70px;
+	 -webkit-animation-name: cambia_color;
+	 -webkit-animation-iteration-count: infinite;
+	 -webkit-animation-timing-function: ease-out;
+	 -webkit-animation-duration: 10s;
+	 
+  }
+  
+  @-webkit-keyframes cambia_color {
+	0%  {color: orange; text-shadow: 1px 1px 1px #000; padding-left: 1em}
+	33% {color: red; text-shadow: 1px 1px 1px #000; padding-left: 3em}
+	66% {color: green; text-shadow: 1px 1px 1px #000; padding-left: 6em}
+	100% {color: #03f; text-shadow: 1px 1px 1px #000; padding-left: 9em;}
+  }

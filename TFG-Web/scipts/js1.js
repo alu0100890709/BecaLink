@@ -9,6 +9,8 @@ function cambiar(esto)
 	document.getElementById(esto).style.display = vista;
 }
 
+
+
 function enviar(pagina){
 	document.nombreDelFormulario.action = pagina;
 	document.nombreDelFormulario.submit();
@@ -19,6 +21,16 @@ function mover(pagina){
 	location.href=pagina;
 	
 }
+
+
+function go(){
+	if (document.form.password.value=='CONTRASEÑA' && document.form.login.value=='USUARIO'){ 
+			document.form.submit(); 
+		} 
+		else{ 
+			 alert("Porfavor ingrese, nombre de usuario y contraseña correctos."); 
+		} 
+	} 
 
 function navbarInf(){
 	var elemento = document.getElementById("Info");
@@ -56,5 +68,15 @@ function navbarCont(){
 	  cambiar('Contactos');
 	  if(document.getElementById("Info").className == "active"){ navbarInf();  cambiar('Información');}
 	  if(document.getElementById("Requirements").className == "active"){ navbarReq(); cambiar('Requisitos');}
+    }
+}
+
+
+
+
+function mostrar(id) {
+    if (id == "2") {
+        $("#prueba").show();
+
     }
 }

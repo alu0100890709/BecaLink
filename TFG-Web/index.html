@@ -13,21 +13,24 @@
   <title>BecaLink </title>
 
 </head>
-<body style="background-color: antiquewhite">
+<body>
+  <div>
   <div style="width: 25%; display: inline-block;" >
-    <p style="text-align:center;"><img class="logo" src="images/Logo.png" alt="Logo de Becalink" 
+    <p style="text-align:center;"
+    ><img class="logo" src="images/Logo.png" alt="Logo de Becalink" 
       onclick="mover('index.html')"></p></div>
   
   <h1 class="titulo">BECALINK</h1>
   <div style="width: 23%; display: inline-block;">
-    <p style="text-align:right;">Registro<img class="logo" style="cursor: pointer" src="images/Logo_usuario.png"
+    <p style="text-align:right;">Entrar/Registrar<img class="logo" style="cursor: pointer" src="images/Logo_usuario.png"
        alt="Logo del usuario" onclick="mover('registroUser.html')"></p></div>
-
-  <div id="wrapper">
+      </div>
+      
+  <div id="wrapper" style="background-image: url('images/biblio.jpg');" >
     <div class="contenedor">
       <h1>Preguntas frecuentes</h1>
       <h2><a href="#" onclick="cambiar('pregunta1'); return false;">¿Qué es BecaLink?</a></h2>
-        <div id="pregunta1" style="display: none;">
+        <div id="pregunta1" style="display: none; text-align: left; padding: 10px;">
           Es un buscador y gestor de Becas, que te ayudará a  encontrar de manera sencilla y rápida
           toda subvención que necesites para que tus estudios sean más llevaderos. 
         </div>
@@ -56,38 +59,50 @@
             </li>
           </ul>
         </div>
+      
+        <br>
+
+      <h2><a href="#" onclick="cambiar('pregunta3'); return false;">Contacto</a></h2>
+        <div id="pregunta3" style="display: none;">
+          <span>Correo electrónico: maestre1996@gmail.com</span>
+          <span>Número de contacto: 922 XXX XXX</span>
+        </div>
     </div>
     <div class="leftDistance"></div><div class="inliner-block"> 
-      <h1 class="buscar" >Busqueda</h1>
+      <h1 class="buscar">Busqueda</h1>
       <br>
       <form>
-      <h2>¿Qué eres?</h2>
-        <br>
-        <select name="User">
+      <h2 class="formulario">¿Qué eres?</h2>
+
+        <select name="User" class="pregunta">
+          <option value="0"></option> 
           <option value="1">Estudiante Universitario</option> 
           <option value="2">Trabajador</option> 
           <option value="3">Empresa</option>
         </select>
-      <br>
-      <h2>País</h2>
-        <br>
-        <select name="Country">
+
+      <h2 class="formulario">País</h2>
+
+        <select name="Country" class="pregunta">
+          <option value="0"></option> 
           <option value="1">España</option> 
           <option value="2">Alemania</option> 
           <option value="3">Francia</option>
         </select>
-      <br>
-      <h2>Provincia</h2>
-        <br>
-        <select name="Provincia">
+
+      <h2 class="formulario">Provincia</h2>
+
+        <select name="Provincia" class="pregunta">
+          <option value="0"></option> 
           <option value="1">Andalucia</option> 
           <option value="2">Canarias</option> 
           <option value="3">Madrid</option>
         </select>
       <br>
-      <h2>Universidad</h2>
-        <br>
-        <select name="University" >
+      <h2 class="formulario">Universidad</h2>
+
+        <select name="University" class="pregunta">
+          <option value="0"></option> 
           <option value="1">U. de La Laguna</option> 
           <option value="2">U. de Las Palmas de Gran Canarias</option> 
         </select>
@@ -101,11 +116,14 @@
         <h2>Ministerio de Educación</h2>
         <p>Cambios/Descripción/Enlace</p>
         <h2>Ayuntamiento de Adeje</h2>
-        <p>Cambios/Descripción/Enlace</p>
-      <h1>Ayudas para Trabajadores</h1>
+        <p>Plazo de presentación de solicitudes: 20 días<br> 
+          hábiles de lunes a viernes,del 05 de junio <br> 
+          al 02 de julio de 2018, de lunes a viernes.</p>
     </div>
-  
-  </div>
+    </div>
+    <br>
+    <div style="background-color: lightsalmon"><span class="publi">Espacio Publicitario</span> </div>
+
 
 
 </body>

@@ -13,7 +13,7 @@
   <title>BecaLink </title>
 
 </head>
-<body style="background-color: antiquewhite">
+<body >
   <div style="width: 25%; display: inline-block;" >
     <p style="text-align:center;"><img class="logo" src="images/Logo.png" alt="Logo de Becalink" 
       onclick="mover('index.html')">Volver</p></div>
@@ -21,21 +21,23 @@
   <h1 class="titulo">BECALINK</h1>
 
   <div id="wrapper">
-    <form action="/my-handling-form-page" method="post">
+    <form action="index.html" method="post">
       <div>
-          <label for="name">Nombre de usuario:</label>
-          <input type="text" id="name" />
+          <label for="name">Nombre:</label>
+          <input type="name" id="name" />
       </div>
       <div>
-          <label for="mail">Correo electrónico: </label>
-          <input type="email" id="mail" />
+          <label for="mail">Contraseña: </label>
+          <input type="password" id="email" />
       </div>
       <div class="button">
-        <button type="submit">Registrar</button>
+        
+<input onclick=go() type=button value=Acceder />
       </div>  
       <div class="button">
         <button type="button" onclick="mover('newUser.html')" >Crear nuevo usuario</button>
       </div>
+      
     </form>
   
   </div>

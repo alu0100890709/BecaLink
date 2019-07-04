@@ -1,15 +1,31 @@
 
+/*
+    <div style="width: 100%; height:100px;" >
+ <img   src="images/biblio.jpg" alt="Biblioteca Universitaria" 
+        onclick="mover('index.html')"></div>
+
+  </div>
+*/
+
+
 /* Formato del titulo central de Busqueda */
 h1.buscar{
 	font-family: fantasy;
-	font-size:50px;
-	display: inline-block;
+	font-size:70px;
+  display: inline-block;
 	margin: 0px;
 	padding: 0px;
 	box-align: auto auto auto auto;
-	cursor: default;
 
 }
+
+h2.formulario{
+
+	font-size: 30px;
+  background-color: #faebd7;
+
+}
+
 
 .button {
   background-color: orange;
@@ -17,11 +33,15 @@ h1.buscar{
   color: black;
   padding: 15px 25px;
   text-align: center;
-  font-size: 16px;
+  font-size: 30px;
   cursor: pointer;
+  border-radius: 10px;
   
   
 }
+
+
+
 
 /*
 
